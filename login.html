@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>My Webpage</title>
-<link rel="stylesheet" href="style.css">
-<meta name="author" content="joseph">
-<link rel="icon" href="logo.jpg" type="image/x-icon">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-</head>
-<body>
-    <main>    
- <div id="menu">
-    <h1><img src="logo.jpg" alt="logo" style="width:35px;height:50px;">Mathematics Guru</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div id="form">
+        <h1>REGISTRATION INFO</h1>
+        <form id="myForm" action="home.html">
+        <table id="name">
+          <tr>
+          <th>
+            <label for="first">First Name</label><br>
+            <input name="first" type="text" id="first" required>
+          </th>
+            <th>
+            <label for="middle">Middle Name</label><br>
+            <input name="middle" type="text" id="middle" required>
+          </th>
+          <th>
+               <label for="last">Last Name</label><br>
+            <input name="last" type="text" id="last" required>
+          </th>
+          </tr>
+        </table>
+        <br><br>
+           <label for="email">Email Address</label><br>
+            <input type="email" name="email" id="email" required><br><br><br>
+               <label for="number">Phone Number</label><br>
+            <input name="number" type="tel" id="number" required><br><br><br>
+               <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="male" ><br>
+               <label for="female">Female</label><br>
+            <input type="radio" id="female" name="gender">
+            <br><br><br>
+              <label for="city">City</label><br>
+            <input name="city" required type="text" id="city" ><br><br><br>
+              <label for="country">Country</label><br>
+            <input name="country" required type="text" id="country" ><br><br><br>
+               <label for="picture">Picture</label><br>
+            <input name="picture" type="file" id="picture" ><br><br>
+            <button onclick="processFormData()" id="submit">Submit</button>
+            <br><br>
+            </form>
+            </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <form action="home.html">
-        <fieldset id="form">
-        <label for="name">NAME:</label><br>
-        <input id="name" name="name" required placeholder="first middle last" type="text">
-        <br>
-        <br>
-        <label for="email">Email Address:</label><br>
-        <input id="email" name="email" required placeholder="example@gmail.com" type="email">
-        <br><br>
-        <label for="number">Phone Number:</label><br>
-        <input id="number" name="number" required>
-        <br><br>
-        <strong>Gender:</strong><br>
-        <label for="male">Male:</label>
-        <input id="male" name="male"  value="male"  type="checkbox">
-        <label for="female"> Female:</label>
-        <input id="female"     type="checkbox"><br><br>
-        <label  for="age">Age:</label>
-        <select id="age">
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18+">18+</option>
-        </select>
-        <button>Continue</button>
-        </fieldset>
-    </form>
-    </main>
+      <div class="contact">
+
+    <div id="whatsapp"><strong><a href="https://chat.whatsapp.com/FMCl7nOoQLA12QTkX4bx9u">WHATSAPP</a></strong>
+
+</div>
+    <div id="call">
+     <a href="tel:07038640142">CALL US</a>
+      </div>
+  </div>
     <footer>
-        <div class="content">
-    <h3><b>&copy; Mathematics guru 2025</b></h3>
-    </div>
-    </footer>  
-    </body>
-    </html>
+
+    <div id="foot">
+
+<h3><b>&copy; Mathematics guru 2025</b></h3>
+</div>
+</footer>  
+  </body>
+</html>
