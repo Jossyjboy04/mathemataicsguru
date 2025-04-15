@@ -1,0 +1,85 @@
+#form{
+  text-align:center;
+  border:2px solid rgba(0,0,255,0.7);
+  width:50%;
+  margin:0 auto;
+  background-color:rgba(0,255,0,0.5);
+}
+input{
+  padding:8px;
+  border:2px solid rgba(0,0,255,0.7);
+  border-radius:5px;
+}
+button{
+  background-color:#4caf50;
+  color:white;
+  
+}
+ h1{
+  background-color:rgba(0,0,255,0.7);
+  color:white;
+  text-align:center;
+ } 
+ #notice{
+  background-color:rgba(0,0,255,0.7);
+  color:white;
+  text-align:center;
+  margin:0 auto;
+  width:50%;
+  font-weight:bold;
+ }
+ .contact{
+  display:flex;}
+
+ #whatsapp{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border-radius:50%;
+  line-height:200px;
+  background-color:rgba(0,255,200,0.2);
+  margin-left:30%;
+  margin-top:20px;
+}
+#whatsapp a{
+  color: green ;
+  text-decoration:none;
+  font-weight:bold;
+}
+#call{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border-radius:50%;
+  line-height:200px;
+  background-color:rgba(0,255,200,0.2);
+  margin-top:20px;
+}
+#call a{
+  color: green ;
+  text-decoration:none;
+  font-weight:bold;
+}
+#foot{
+  color:white;
+  background-color:rgba(0,0,255,0.7);
+  text-align:center;
+  margin-top:0px;}
+  #new{
+    background-color:rgba(0,0,255,0.7);
+    color:white;
+    text-align: center ;
+    
+  }
+  ul a{
+    color:white;
+    text-decoration:none;
+  }
+  #summary{
+    margin:0 auto;
+  }
+  table a{
+    color:white;
+    text-decoration: none ;
+  }
+  

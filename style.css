@@ -137,6 +137,10 @@ label{
   margin-left:2%;
   border:1px solid black;
 }
+#feedback{
+  width:30%;
+  margin:0 auto;
+}
 #city{
   width:90%;
   padding:2%;
@@ -269,7 +273,7 @@ table,th,td{
 legend{
   font-weight:bold;
 }
-#image{
+#imag{
   color:white;
   text-align:center;
   background-color:rgba(0,0,255,0.7);
