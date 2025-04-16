@@ -1,4 +1,50 @@
-alert("welcome to the calculator app");
+// JavaScript code for the calculator functionality
+function trigOperation(){
+    let angle=document.getElementById("angle").value;
+    let func=document.getElementById("func").value;
+    let answera;
+    let answerr;
+
+    if(func==="sin"){
+        answera=Math.sin(angle);
+        answerr=Math.sin(angle*(Math.PI/180));
+    }
+    else if(func==="cos"){
+        answera=Math.cos(angle);
+        answerr=Math.cos(angle*(Math.PI/180));
+    }
+    else if(func==="tan"){
+        answera=Math.tan(angle);
+        answerr=Math.tan(angle*(Math.PI/180));
+    }
+    else if(func==="csc"){
+        answera=1/Math.sin(angle);
+        answerr=1/Math.sin(angle*(Math.PI/180));
+    }
+    
+    else{
+        alert("Invalid function selected.");
+        return;
+    }   
+    document.getElementById("trigResult").textContent=func + angle +" is "+ answera +" in radian";
+    document.getElementById("trigResult1").textContent=func + angle +" is " + answerr + " in degree";
+
+}
+
+function minimum(){
+    let min=document.getElementById("min").value;
+    array=min.split(",")
+    array=array.map(Number);
+    let calcMin=Math.min(...array);
+    document.getElementById("minResult").textContent=calcMin;
+}
+function maximum(){
+    let max=document.getElementById("max").value;
+    array=max.split(",")
+    array=array.map(Number);
+    let calcMax=Math.max(...array);
+    document.getElementById("maxResult").textContent=calcMax;
+}
 
 function calculate(){
     let first=Number(document.getElementById("first").value);
@@ -15,7 +61,7 @@ function calculate(){
         result=first*second;
     }
     else if(operation==="divide"){
-        if(result!==0){
+        if(second!==0){
             result=first/second;
         }
         else{

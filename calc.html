@@ -5,70 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple calculator</title>
   <link rel="stylesheet" href="calc.css">
-  <link rel="icon" href="logo.jpg" type="image/x-icon">
 </head>
 <body>
-  <div id="new">
-    <h1>Mathematics Guru</h1>
-<nav>
-    <details>
-    <summary>&#9776;</summary>
-    <table id="summary">
-      <tr>
-    <td><a href="#home">Home</a></td>
-   <td><a href="#about">About</a></td>
-    <td><a href="#topics">Topics</a></td>
-    <td><a href="#review">Review</a></td>
-   </tr>
-    </table>
-    <ul>
-    <li><a href="#image">Image</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="faq.html">FAQ</a></li>
-    <li><a href="#contact">Contact</a></li>
-    </ul>
-    </details>
-</nav>
-</div><br><br>
+  <div class="calculator">
   <div id="form">
-    <h2>Simple Calculator</h2>
-    <p>Enter two numbers and select an operation:</p>
-    <br><br>
+    <h2>Trigonometry</h2>
+    
+     <input type="number" id="angle" placeholder="Enter angle">
+     <br><br>
+    <select id="func">
+      <option value="sin">sin</option>
+      <option value="cos">cos</option>
+      <option value="tan">tan</option>
+      <option value="csc">csc</option>
+      </select>
+      <br><br>
+    <button onclick="trigOperation()">Calculate</button>
+    <p id="trigResult"></p>
+    <p id="trigResult1"></p>
+    </div>
+    <br>
+    <div id="form1">
+      <h2>Min and Max</h2>
+    <input id="min" type="numbers" placeholder="Enter your Numbers"><br><br><button onclick="minimum()">Minimum</button>
+    <p id="minResult"></p>
+    <input id="max" type="numbers" placeholder="Enter your numbers"><br><br><button onclick="maximum()">Maximum</button><br><br>
+    <p id="maxResult"></p>
+  </div>
+  <br>
+  <div id="form2">
+    <h2>Basic Operations </h2>
     <input type="number" id="first" placeholder="Enter your first number"><br><br>
     <select id="operation">
-      <option value="add">+</option>
+      <option selected value="add">+</option>
       <option value="subtract">-</option>
       <option value="multiply">×</option>
       <option value="divide">÷</option>
       <option value="modulus">%</option>
       <option value="exponent">^</option>
-      <option value="log">base</option>
+      <option value="log">logarithm</option>
     </select><br><br>
     <input type="number" id="second" placeholder="Enter your second number"><br><br>
-    <button onclick="calculate()">Calculate</button><br><br>
+    <button onclick="calculate()">Calculate</button>
     <p id="result"></p>
   </div>
-  <div id="notice">
-    <h3>Notice</h3>
-    <p>Note: For logarithm, enter the base in the second input field <br>and the number in the first input field.</p>
-    <p>For exponentiation, enter the base in the first input field <br>and the exponent in the second input field.</p>
-  </div>
 <script src="calc.js"></script>  
-<div class="contact">
-
-<div id="whatsapp"><strong><a href="https://chat.whatsapp.com/FMCl7nOoQLA12QTkX4bx9u">WHATSAPP</a></strong>
-
-</div>
-<div id="call">
-<a href="tel:07038640142">CALL US</a>
-</div>
-</div>
-<footer>
-
-<div id="foot">
-
-<h3>&copy; Mathematics guru 2025</h3>
-</div>
-</footer>  
 </body>
 </html>
