@@ -137,6 +137,12 @@ label{
   margin-left:2%;
   border:1px solid black;
 }
+.form{
+  border:2px solid blue;
+}
+.form input{
+  border:1px solid blue;
+}
 #feedback{
   width:30%;
   margin:0 auto;
@@ -266,8 +272,12 @@ table,th,td{
   text-align:center;
   font-weight:bold;
 }
+#alert{
+  background-color:black;
+}
 #alert a{
   text-decoration:none;
+color:white;
   
 }
 legend{

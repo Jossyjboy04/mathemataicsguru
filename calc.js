@@ -1,4 +1,5 @@
 // JavaScript code for the calculator functionality
+//The function for trigonometry 
 function trigOperation(){
     let angle=document.getElementById("angle").value;
     let func=document.getElementById("func").value;
@@ -30,7 +31,7 @@ function trigOperation(){
     document.getElementById("trigResult1").textContent=func + angle +" is " + answerr + " in degree";
 
 }
-
+//minimum value checker function 
 function minimum(){
     let min=document.getElementById("min").value;
     array=min.split(",")
@@ -45,7 +46,7 @@ function maximum(){
     let calcMax=Math.max(...array);
     document.getElementById("maxResult").textContent=calcMax;
 }
-
+//basic operation calculator 
 function calculate(){
     let first=Number(document.getElementById("first").value);
     let operation=document.getElementById("operation").value;
@@ -84,4 +85,20 @@ function calculate(){
         return;
     }
     document.getElementById("result").textContent=result;  
+}
+//palindrome checker 
+function isPalindrome(){
+  let input=document.getElementById("text").value.toLowerCase();
+  let result;
+  array=input.split("");
+  array=array.reverse();
+  reversed=array.join("");
+  if(input===reversed){
+    result="true";
+  }
+  else{
+    result="false"
+  }
+  let a=document.getElementById("pal")
+ a.textContent=result;
 }

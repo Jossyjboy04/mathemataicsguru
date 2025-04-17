@@ -1,59 +1,140 @@
+#new{
+  background-color:rgba(0,0,255,0.7);
+  color:white;
+  text-align: center ;
+  
+}
+ul a{
+  color:white;
+  text-decoration:none;
+}
+#summary{
+  margin:0 auto;
+}
+table a{
+  color:white;
+  text-decoration: none ;
+}
 .calculator{
+width:100%;
+display:flex;
+justify-content:center;
+}
+.contain{
   width:100%;
-  }
-  #form{
-    max-width:50%;
-    margin:0 auto;
-    background-color:white;
-    border:2px solid blue;
-    text-align:center;
-    font-weight:bold;
-  }
-  h2{
-    margin-top:0px;
-    background-color:blue;
-    color:white;
-  }
-  #angle,#func{
-    border:2px solid black;
-    padding:8px;
-    width:90%;
-    font-weight:bold;
-    border-radius:10px;
-  }
-  button{
-    background-color:blue;
-    color:white;
-    padding:8px;
-    width:90%;
-  }
-  #form1{
-    max-width:50%;
-    margin:auto;
-    background-color:white;
-    border:2px solid blue;
-    text-align:center;
-    font-weight:bold;
-  }
-  #min,#max{
-    border:2px solid black;
-    padding:8px;
-    width:90%;
-    font-weight:bold;
-    border-radius:10px;
-  }
-  #form2{
-    max-width:50%;
-    margin:auto;  
-    background-color:white;
-    border:2px solid blue;
-    text-align:center;
-    font-weight:bold;
-  }
-  #first,#second,#operation{
-    border:2px solid black;
-    padding:8px;
-    width:90%;
-    font-weight:bold;
-    border-radius:10px;
-  }
+  display:flex;
+  Justify-content:center;
+}
+#form{
+  max-width:50%;
+  background-color:white;
+  border:2px solid blue;
+  text-align:center;
+  font-weight:bold;
+}
+h2{
+  margin-top:0px;
+  background-color:blue;
+  color:white;
+}
+#angle,#func{
+  border:2px solid black;
+  padding:8px;
+  width:90%;
+  font-weight:bold;
+  border-radius:10px;
+}
+button{
+  background-color:rgba(0,0,255,0.7);
+  padding:8px;
+  width:90%;
+}
+#form1{
+  max-width:50%;
+  background-color:white;
+  border:2px solid blue;
+  text-align:center;
+  font-weight:bold;
+}
+#min,#max{
+  border:2px solid black;
+  padding:8px;
+  width:90%;
+  font-weight:bold;
+  border-radius:10px;
+}
+#form2{
+  max-width:50%;
+  background-color:white;
+  border:2px solid blue;
+  text-align:center;
+  font-weight:bold;
+}
+#first,#second,#operation{
+  border:2px solid black;
+  padding:8px;
+  width:90%;
+  font-weight:bold;
+  border-radius:10px;
+}
+#text{
+  border:2px solid black;
+  padding:8px;
+  width:90%;
+  font-weight:bold;
+  border-radius:10px;
+}
+#form3{
+  max-width:50%;
+  background-color:white;
+  border:2px solid blue;
+  text-align:center;
+  font-weight:bold;
+}
+#conte h2{
+  background-color:rgba(0,0,255,0.7);
+  color:white;
+  text-align:center;
+}
+.contact{
+  display:flex;
+}
+#cont h2{
+  color:white;
+  background-color:rgba(0,0,255,0.7);
+  text-align:center;
+}
+#whatsapp{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border-radius:50%;
+  line-height:200px;
+  background-color:rgba(0,255,200,0.2);
+  margin-left:30%;
+  margin-top:20px;
+}
+#whatsapp a{
+  color: green ;
+  text-decoration:none;
+  font-weight:bold;
+}
+#call{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border-radius:50%;
+  line-height:200px;
+  background-color:rgba(0,255,200,0.2);
+  margin-top:20px;
+}
+#call a{
+  color: green ;
+  text-decoration:none;
+  font-weight:bold;
+}
+#foot{
+  color:white;
+  background-color:blue;
+  text-align:center;
+}
