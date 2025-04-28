@@ -1,24 +1,58 @@
+  #img{
+  background:url("bgg.jpeg");
+  height:auto;
+  max-width:100%;
+  width:100%;
+  transition: background 3s;
+  position:fixed;
+  top:0px;
+}
+ #img img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border:7px solid blue;
+  margin-left:35%;
+  box-sizing:border-box;
+  margin-left:45%;
+}
+#head{
+  font-size:large;
+  font-weight:bold;
+  text-align: center ;
+  color:rgba(0,0,0,1);
+  margin-top:0px;
+}
+#nav{
+  text-align: center ;
+}
+a{
+  background-color:white;
+  color:blue;
+  text-decoration:none;
+  font-size: small;
+  opacity:1;
+  outline:2px solid black;
+}
+h2{
+  color:rgba(0,0,0,1);
+  font-size:small;
+  font-weight:bold;
+  font-family:"Times New Roman";
+}
 #new{
-  background-color:rgba(0,0,255,0.7);
+  background-color:#2AAA8A;
   color:white;
   text-align: center ;
   
 }
-ul a{
-  color:white;
-  text-decoration:none;
-}
-#summary{
-  margin:0 auto;
-}
-table a{
-  color:white;
-  text-decoration: none ;
-}
+
 .calculator{
 width:100%;
 display:flex;
 justify-content:center;
+margin-top:200px;
+  box-sizing:border-box;
 }
 .contain{
   width:100%;
@@ -28,15 +62,12 @@ justify-content:center;
 #form{
   max-width:50%;
   background-color:white;
-  border:2px solid blue;
+  border:2px solid #2AAA8A;
   text-align:center;
   font-weight:bold;
+  
 }
-h2{
-  margin-top:0px;
-  background-color:blue;
-  color:white;
-}
+
 #angle,#func{
   border:2px solid black;
   padding:8px;
@@ -45,14 +76,14 @@ h2{
   border-radius:10px;
 }
 button{
-  background-color:rgba(0,0,255,0.7);
+  background-color:#2AAA8A;
   padding:8px;
   width:90%;
 }
 #form1{
   max-width:50%;
   background-color:white;
-  border:2px solid blue;
+  border:2px solid #2AAA8A;
   text-align:center;
   font-weight:bold;
 }
@@ -66,7 +97,7 @@ button{
 #form2{
   max-width:50%;
   background-color:white;
-  border:2px solid blue;
+  border:2px solid #2AAA8A;
   text-align:center;
   font-weight:bold;
 }
@@ -87,12 +118,12 @@ button{
 #form3{
   max-width:50%;
   background-color:white;
-  border:2px solid blue;
+  border:2px solid #2AAA8A;
   text-align:center;
   font-weight:bold;
 }
 #conte h2{
-  background-color:rgba(0,0,255,0.7);
+  background-color:#2AAA8A;
   color:white;
   text-align:center;
 }
@@ -101,7 +132,7 @@ button{
 }
 #cont h2{
   color:white;
-  background-color:rgba(0,0,255,0.7);
+  background-color:#2AAA8A;
   text-align:center;
 }
 #whatsapp{
@@ -132,9 +163,4 @@ button{
   color: green ;
   text-decoration:none;
   font-weight:bold;
-}
-#foot{
-  color:white;
-  background-color:blue;
-  text-align:center;
 }

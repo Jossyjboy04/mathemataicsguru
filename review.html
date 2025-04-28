@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ;initial-scale=1.0">
+    <meta name="author" content="Joseph">
+    <meta name="description" content="A mathematics website tailored for beginners, with interesting features and topics.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <title>Review page</title>
+   
+  </head>
+  <body>
+  
+    <div id="img">
+    <img src="logo.jpg" alt="logo">
+    <h1 id="head">Mathematics Guru</h1>
+    <div id="nav">
+      <nav>
+          
+  <a href="home.html">Home</a>
+  <a href="#topic">Topics</a>
+  <a href="faq.html">Faq</a>
+  <a href="blog.html">Blog</a>
+ <a href="#contacts">Contacts</a>
+ <a href="about.html">About</a>
+            
+      </nav>
+    </div>
+    </div>
+    <br><br>
+    <main>
+      <div id="maths">
+        <form onsubmit="review(event)" id="myform" action="get.html">
+          <fieldset class="mrq">
+            <legend>Personal information </legend>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text"><br><br>
+               <label for="email">Email Address:</label>
+            <input id="email" type="email"><br><br>
+               <label for="number">Phone Number:</label>
+            <input id="number" type="tel">
+            
+          </fieldset>
+          <fieldset class="mrq">
+            <legend>
+              Math related question</legend>
+            <label for="what">Topics you would like to explore?</label>
+            <select required id="what">
+              <option value="calculus">Calculus </option>
+                <option value="logarithm">Logarithm</option>
+                  <option value="equation">Equation</option>
+                    <option selected value="others">Others </option>
+                    </select><br><br>
+                  <label  for="skill">What is your current level of math proficiency?</label>
+            <select id="skill">
+              <option value="beginner">Beginner </option>
+                <option value="intermediate">Intermediate</option>
+                  <option selected value="advanced">Advanced</option>
+                    
+            </select><br><br>
+            <strong for="update">Will you like to receive update on new math content?</strong><br>
+            <label for="yes">Yes</label>
+            <input  type="radio" id="yes" name="update" value="yes">
+               <label for="no">No</label>
+            <input type="radio" id="no" name="update" value="no"><br><br>
+            <button type="submit">Submit review</button>
+          </fieldset>
+        </form><br><br>
+      </div>
+         <section id="topic">
+            <table>
+            <th colspan="3">Topics</th>
+                </tr>
+              <tr>
+            <td><a href="algebra.html">Algebra</a></td>
+            <td><a href="logarithm.html">Logarithm</a></td>
+            <td><a href="equation.html">Equations</a></td>
+          </tr>
+              <tr>
+            <td><a href="trig.html">Trigonometry</a></td>
+            <td><a href="word.html">word problems</a></td>
+            <td><a href="calculus.html">Calculus</a></td>
+          </tr>
+        </tbody>
+      </table>
+      </section>
+      <br>
+         <br>
+     <section id="contacts">
+       <div id="contact">
+         <h2>Contact us</h2>
+         <div id="phone">
+<a href="tel:07038640142">📞</a>
+</div>
+<div id="mail">
+<a href="mailto:olorijoseph2002@gmail.com">💌</a>
+</div>
+       </div>
+     </section>
+    </main>
+    <footer>
+      <h3>&copy; mathematics guru 2025</h3>
+    </footer>
+         <script src="script.js"></script>
+    </body>
+    </html>
