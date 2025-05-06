@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width ;initial-scale=1.0">
     <meta name="author" content="Joseph">
     <meta name="description" content="A mathematics website tailored for beginners, with interesting features and topics.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo.jpg" type="image/x-icon">
-    <title>Review page</title>
+    <link rel="icon" href="/images/logo.jpg" type="image/x-icon">
+    <title>Review</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"  />
    
+    
+
   </head>
-  <body>
-  
-    <div id="img">
-    <img src="logo.jpg" alt="logo">
+  <body id="rev">
+    <div class="fix">
+    <img class="logo" src="images/logo.jpg" alt="logo">
     <h1 id="head">Mathematics Guru</h1>
-    <div id="nav">
       <nav>
-          
-  <a href="home.html">Home</a>
-  <a href="#topic">Topics</a>
-  <a href="faq.html">Faq</a>
-  <a href="blog.html">Blog</a>
- <a href="#contacts">Contacts</a>
- <a href="about.html">About</a>
-            
-      </nav>
-    </div>
-    </div>
-    <br><br>
+        <div id="mid">
+<a class="spa" href="home.html"><abbr title="Home"><i class="fa fa-home"></i></abbr>Home</a>
+<a class="spa" href="about.html"><abbr title="About"><i class="fa fa-info-circle"></i></abbr>About</a>
+<a class="spa" href="#topic"><abbr title="Topics"><i class="fa fa-book"></i></abbr>Topics</a>
+ <a class="spa" href="faq.html"><abbr title="Frequently asked questions"><i class="fa fa-question-circle"></i>FAQ</abbr></a>
+<a class="spa" href="#contact"><abbr title="Contacts"><i class="fa fa-envelope"></i></abbr>Contact</a>
+<a class="spa" href="#"><abbr title="Review"><i class="fa fa-star"></i></abbr>Review</a>
+<a class="spa" href="blog.html"><abbr title="Blog"><i class="fa fa-newspaper"></i></abbr>Blog</a>
+</div>      
+</nav>
+</div><br><br>
     <main>
       <div id="maths">
         <form onsubmit="review(event)" id="myform" action="get.html">
@@ -64,44 +64,49 @@
             <input  type="radio" id="yes" name="update" value="yes">
                <label for="no">No</label>
             <input type="radio" id="no" name="update" value="no"><br><br>
-            <button type="submit">Submit review</button>
+            <input type="submit" value="Submit review">
           </fieldset>
         </form><br><br>
       </div>
-         <section id="topic">
-            <table>
-            <th colspan="3">Topics</th>
-                </tr>
-              <tr>
-            <td><a href="algebra.html">Algebra</a></td>
-            <td><a href="logarithm.html">Logarithm</a></td>
-            <td><a href="equation.html">Equations</a></td>
-          </tr>
-              <tr>
-            <td><a href="trig.html">Trigonometry</a></td>
-            <td><a href="word.html">word problems</a></td>
-            <td><a href="calculus.html">Calculus</a></td>
-          </tr>
-        </tbody>
-      </table>
-      </section>
-      <br>
-         <br>
-     <section id="contacts">
-       <div id="contact">
-         <h2>Contact us</h2>
-         <div id="phone">
-<a href="tel:07038640142">📞</a>
-</div>
-<div id="mail">
-<a href="mailto:olorijoseph2002@gmail.com">💌</a>
-</div>
-       </div>
-     </section>
-    </main>
-    <footer>
-      <h3>&copy; mathematics guru 2025</h3>
-    </footer>
-         <script src="script.js"></script>
+      <section id="topic">
+        <div class="features">
+          <h2 class="taf">Topics</h2>
+    <a class="feat" href="algebra.html"><abbr title="Algebra"><i class="fa fa-superscript"></i></abbr><br>Algebra</a><br><br>
+    <a class="feat" href="logarithm.html"><abbr title="Logarithm"><i class="fa fa-subscript"></i></abbr><br>Logarithm</a><br><br>
+    <a class="feat" href="equation.html"><abbr title="Equations"><i class="fa fa-equals"></i></abbr><br>Equations</a><br><br>
+    <a class="feat" href="trig.html"><abbr title="Trigonometry"><i class="fa fa-ruler-combined"></i></abbr><br>Trigonometry</a><br><br>
+    <a class="feat" href="word.html"><abbr title="Word problems"><i class="fa fa-file-alt"></i></abbr><br>Word problem</a><br><br>
+    <a class="feat" href="calculus.html"><abbr title="Calculus"><i class="fa fa-infinity"></i></abbr><br>Calculus</a><br>
+        </section>
+        <br>
+       <section id="contacts">
+           <div class="message">
+           <div id="contact">
+            <h2 class="us">Contact Us</h2>
+            <p>feel free to contact us anytime,We will get back to you as soon as we can.</p>
+          <form action="#">
+          <label for="name">Name</label><br>
+          <input class="nem" disabled type="text" id="name"> <br>
+          <label for="email">Email</label><br>
+          <input class="nem" disabled type="email" id="email"> <br>
+          <label for="message">Message</label><br>
+          <input class="nem" disabled type="text" id="message"><br><br> 
+          <input onclick='alert("unavailable for now")' type="submit" id="submit" value="SEND"><br><br>
+        </form> <br><br> 
+        </div>
+        <div id="info">
+          <h2 class="inf">Info</h2>
+          <a class="inf" href="mailto:olorijoseph2002@gmail.com">Email us<i class="fa fa-envelope"></i></a><br><br>
+          <a class="inf" href="tel:07038640142">Call<i class="fa fa-phone"></i></a>
+         
+        </div>
+           </div>
+       </section>
+      </main>
+      <footer>
+        <h3>&copy; mathematics guru 2025</h3>
+      </footer>
+      <script src="js/script.js"></script>
     </body>
+    
     </html>

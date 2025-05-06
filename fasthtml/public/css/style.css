@@ -1,0 +1,150 @@
+body{
+  background:rgba(0,0,0,0.7);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+max-width:100%;
+font-size: 1.5em;
+}
+.navbar{
+  width:30%;
+  height:100%;
+  background:white;
+  color:black;
+  position:fixed;
+  padding-top:100px;
+  padding-bottom:100px;
+  box-sizing: border-box;
+  display:inline;
+  float:left;
+}
+.navbar h2{
+  color:black;
+  text-align:left;
+  font-size:16px;
+}
+
+li{
+  padding: 8px;
+  box-sizing: border-box;
+}
+.navbar a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+  font-size: 0.8rem;
+}
+.main{
+  float:right;
+  width:69%;
+  max-width:100%;
+}
+.separate{
+  background:rgba(0,0,0,0.5);
+}
+h2{
+  text-align:left;
+  color:rgba(177, 133, 81,1);
+  font-weight:lighter;
+  font-size:2.5rem;
+}
+h2~p{
+  color:white;
+}
+.signin{
+  width:80%;
+  max-width:100%;
+  margin:0 auto;
+  background:bisque;
+  color:black;
+  text-align:center;
+  padding-bottom:8px;
+  padding-top:8px;
+  box-sizing: border-box;
+  background:rgba(177,133,81,1);
+}
+a.in{
+  text-decoration:none;
+  color:inherit;
+}
+a.in:hover{
+  color:blue;
+  text-decoration:none;
+}
+#image{
+  text-align:center;
+}
+h3{
+  color:rgba(177, 133, 81,1);
+  font-weight:lighter;
+}
+.flex::before{
+  content:"🕒";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+.prog::before{
+  content:"📶";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+.prog{
+  color:white;
+}
+.com::before{
+  content:"🛐";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+.com{
+  color:white;
+}
+
+.fle{
+  padding-left:50px;
+  color:white;
+  box-sizing: border-box;
+}
+.mas::before{
+  content:"🔯";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+.pro::before{
+  content:"💹";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+
+.con::before{
+  content:"🧱";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+
+.cur::before{
+  content:"💡";
+  background:rgba(0,0,0,0.5);
+  padding:5px;
+  margin:8px;
+  box-sizing: border-box;
+}
+.offer{
+  background:rgba(255,255,255,0.2);
+  color:white;
+  height:auto;
+  width:100%;
+}
+#library img{
+  width:100%;
+}

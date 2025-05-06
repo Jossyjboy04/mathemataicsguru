@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ;initial-scale=1.0" />
+    <meta name="author" content="Joseph" />
+    <meta
+      name="description"
+      content="A mathematics website tailored for beginners, with interesting features and topics."
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/images/logo.jpg" type="image/x-icon" />
+    <title>Signup</title>
+  </head>
+  <body id="log">
+    <div class="login">
+      <div id="one">
+        <img src="/images/logo.jpg" alt="logo" />
+        <span>Mathematics Guru</span>
+        <h2 id="h">Welcome Back!</h2>
+        <p id="p1">
+          To keep connected with us please <br />login with your personal info
+        </p>
+        <form id="strong" action="signin.html" onsubmit="greet(event)">
+          <strong>Do you already have an account?</strong><br />
+          <label for="yes">Yes</label>
+          <input id="yes" name="account" type="radio" />
+          <label for="no">No</label>
+          <input id="no" name="account" type="radio" /><br /><br /><br />
+          <button id="out" type="submit">SIGN IN</button>
+        </form>
+      </div>
+      <div id="two">
+        <h2 id="hh">Create Account</h2>
+        <form onsubmit="signup(event)" action="home.html" id="up">
+          <input
+            id="nam"
+            required
+            type="text"
+            placeholder="Full Name"
+          /><br /><br />
+          <input
+            id="ail"
+            required
+            type="email"
+            placeholder="Email Address"
+          /><br /><br />
+          <input
+            id="ph"
+            required
+            type="tel"
+            placeholder="Phone Number"
+          />
+          <button id="pu" type="submit">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

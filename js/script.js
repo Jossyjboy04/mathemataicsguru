@@ -1,10 +1,10 @@
 //javascript function for signin
 let out=document.getElementById("out");
 out.addEventListener("focus",function(){
- out.style.backgroundColor="red";
+ out.style.backgroundColor="burlywood";
 })
 out.addEventListener("blur",function(){
- out.style.backgroundColor="#2AAA8A";
+ out.style.backgroundColor="none";
 })
 
 function greet(event){
@@ -16,44 +16,27 @@ if(a) {
 }
 else{ 
 event.preventDefault();
-c.style.backgroundColor="red";  
+c.style.backgroundColor="burlywood";  
 }
 }
-
-
-//javascript function for review
-function review(event){
-   let name=document.getElementById("name").value;
-    let email=document.getElementById("email").value;
-     let number=document.getElementById("number").value;
-if(name&&email&&number) {
-  alert("Thanks for the review " + name);
-}
-else{
-  event.preventDefault();
-  alert("please fill in the form");
-}
-}
-
 //javascript function for sign up
-
 let nam=document.getElementById("nam");
     let ail=document.getElementById("ail");
      let ph=document.getElementById("ph");
      nam.addEventListener("focus",function(){
-      nam.style.backgroundColor="red";
+      nam.style.backgroundColor="burlywood";
      })
      nam.addEventListener("blur",function(){
       nam.style.backgroundColor="white";
      })
      ail.addEventListener("focus",function(){
-      ail.style.backgroundColor="red";
+      ail.style.backgroundColor="burlywood";
      })
      ail.addEventListener("blur",function(){
       ail.style.backgroundColor="white";
      })
      ph.addEventListener("focus",function(){
-      ph.style.backgroundColor="red";
+      ph.style.backgroundColor="burlywood";
      })
      ph.addEventListener("blur",function(){
       ph.style.backgroundColor="white";
@@ -70,8 +53,21 @@ function signup(event){
 }
 let pu=document.getElementById("pu");
 pu.addEventListener("focus",function(){
- pu.style.backgroundColor="red";
+ pu.style.backgroundColor="burlywood";
 })
 pu.addEventListener("blur",function(){
- pu.style.backgroundColor="#2AAA8A";
+ pu.style.backgroundColor="black";
 })
+//function for review
+function review(event){
+  let name=document.getElementById("name").value;
+   let email=document.getElementById("email").value;
+    let number=document.getElementById("number").value;
+if(name&&email&&number) {
+ alert("Thanks for the review " + name);
+}
+else{
+ event.preventDefault();
+ alert("please fill in the form");
+}
+}

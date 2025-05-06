@@ -2,59 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width ;initial-scale=1.0" />
-    <meta name="author" content="Joseph" />
-    <meta
-      name="description"
-      content="A mathematics website tailored for beginners, with interesting features and topics."
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="logo.jpg" type="image/x-icon" />
-    <title>Signup page</title>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo.jpg" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"  />
+    
+    <title>Homepage</title>
   </head>
-  <body id="log">
-    <div class="login">
-      <div id="one">
-        <img src="logo.jpg" alt="logo" />
-        <span>Mathematics Guru</span>
-        <h2 id="h">Welcome Back!</h2>
-        <p id="p1">
-          To keep connected with us please <br />login with your personal info
-        </p>
-        <form id="strong" action="sign.html" onsubmit="greet(event)">
-          <strong>Do you already have an account?</strong><br />
-          <label for="yes">Yes</label>
-          <input id="yes" name="account" type="radio" />
-          <label for="no">No</label>
-          <input id="no" name="account" type="radio" /><br /><br /><br />
-          <button id="out" type="submit">SIGN IN</button>
-        </form>
-      </div>
-      <div id="two">
-        <h2 id="hh">Create Account</h2>
-        <form onsubmit="signup(event)" action="home.html" id="up">
-          <input
-            id="nam"
-            required
-            type="text"
-            placeholder="Full Name"
-          /><br /><br />
-          <input
-            id="ail"
-            required
-            type="email"
-            placeholder="Email Address"
-          /><br /><br />
-          <input
-            id="ph"
-            required
-            type="tel"
-            placeholder="Phone Number"
-          /><br /><br />
-          <button id="pu" type="submit">SIGN UP</button>
-        </form>
-      </div>
+  <body>
+    <div class="navbar">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#maths">Mathematics Guru</a></li>
+        <li><a href="#to">Welcome to Mathematics Guru</a></li>
+        <li><a href="#why">Why Choose Mathematics Guru?</a></li>
+        <li><a href="#our">Our Learning Approach</a></li>
+        <li><a href="#offer">Course Offerings</a></li>
+      </ul>
     </div>
-    <script src="script.js"></script>
+    <div class="main">
+        <div class="separate">
+      <header id="maths">
+        <h2>Mathematics Guru</h2>
+        <p>
+          Your gateway to mathematical excellence.join our community of learners
+          and unlock your full potential in mathematics
+        </p>
+      </header>
+      <div class="signin"><a class="a" href="signin.html">SIGN IN</a></div>
+      <br />
+      <div class="signin"><a class="a" href="signup.html">SIGN UP</a></div>
+      <div id="image1">
+        <br />
+        <img src="/images/logo.jpg" alt="logo" />
+      </div>
+      </div>
+      <div class="separate">
+      <section id="to">
+        <h2>Welcome to Mathematics Guru</h2>
+        <p>
+          Mathematics Guru is your comprehensive platform for mastering
+          mathematical concepts at any level. Whether you are a student
+          struggling with algebra or an advanced learner exploring calculus,our
+          expert-led courses and resources are designed to help you succeed.
+        </p>
+        <h3>Expert Instructions</h3>
+        <p>
+          Learn from qualified mathematics educators with years of teaching
+          experience and passion for teaching.
+        </p>
+        <h3>Interactive Learning</h3>
+        <p>
+          Engage with dynamic content that makes complex concepts easier to
+          understand
+        </p>
+        <h3>Personalized Approach</h3>
+        <p>Follow a customized learning path tailored to your specific needs and goals.</p>
+      </section>
+      </div>
+      <div class="separate">
+        <section id="why">
+<h2>Why Choose Mathematics Guru?</h2>
+
+    <p class="flex">Flexible Learning</p><p class="fle">Access our platform anytime,anywhere,allowing you to learn at your own pace and on your own schedule.</p>
+    <p class="prog">Progress Tracking</p><p class="fle">Monitor your improvement with performance metrics that highlight your strength and areas for growth.</p>
+    <p class="com">Community Support</p><p class="fle">Connect with fellow learners in our vibrant community forums to share insights and solve problems together.</p>       
+</section>
+      </div>
+      <div class="separate">
+        <section id="our">
+            <h2>Our Learning Approach</h2>
+            <p class="mas">Mastery</p><p class="fle">Achieve complete understanding and application</p>
+            <p class="pro">Problem Solving</p><p class="fle">Develop critical thinking through challenges</p>
+            <p class="con">Concept Building</p><p class="fle">Establish strong foundational knowledge</p>
+            <p class="cur">Curiosity</p><p class="fle">Foster a love for mathematical discovery</p>
+           <p class="our">Our teaching methodology is built on a progressive approach that takes you from basic understanding to complete mastery.We believe that mathematics is not just about memorizing formulas but developing intuition and problem solving skills that last a lifetime. </p>
+        </section>
+      </div>
+      <section id="offer">
+        <h2>Course Offerings</h2>
+        <div class="offer">
+            <p>Elementary Mathematics</p>
+            <ul>
+        <li>Basic arithmetic operations</li>
+        <li>Introduction to fractions</li>
+        <li>Geometry Fundamentals</li>
+        <li>Simple Equations</li>
+            </ul>
+        </div>
+        <div class="offer">
+            <p>Secondary Mathematics</p>
+            <ul>
+                <li>Algebra and functions</li>
+                <li>Advanced geometry</li>
+                <li>Trigonometry basics</li>
+                <li>Statistical concepts</li>
+            </ul>
+        </div>
+        <div class="offer">
+            <p>Advanced Mathematics</p>
+            <ul>
+                <li>Calculus</li>
+                <li>Linear algebra</li>
+                <li>Probability</li>
+                <li>Discrete mathematics</li>
+            </ul>
+        </div>
+        <div class="offer">
+            <p>Specialized Topics</p>
+            <ul>
+                <li>Logarithmic equations</li>
+                <li>Number theory</li>
+                <li>Complex numbers</li>
+                <li>Word problem</li>
+            </ul>
+        </div>
+      </section>
+<div id="library">
+    <img src="/images/img.png">
+      </div> 
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
