@@ -1,34 +1,35 @@
+
 // JavaScript code for the calculator functionality
 //The function for trigonometry 
 function trigOperation(){
     let angle=document.getElementById("angle").value;
     let func=document.getElementById("func").value;
-    let answera;
-    let answerr;
+    let solution;
+    let answer;
 
     if(func==="sin"){
-        answera=Math.sin(angle);
-        answerr=Math.sin(angle*(Math.PI/180));
+        solution=Math.sin(angle);
+        answer=Math.sin(angle*(Math.PI/180));
     }
     else if(func==="cos"){
-        answera=Math.cos(angle);
-        answerr=Math.cos(angle*(Math.PI/180));
+        solution=Math.cos(angle);
+        answer=Math.cos(angle*(Math.PI/180));
     }
     else if(func==="tan"){
-        answera=Math.tan(angle);
-        answerr=Math.tan(angle*(Math.PI/180));
+        solution=Math.tan(angle);
+        answer=Math.tan(angle*(Math.PI/180));
     }
     else if(func==="csc"){
-        answera=1/Math.sin(angle);
-        answerr=1/Math.sin(angle*(Math.PI/180));
+        solution=1/Math.sin(angle);
+        answer=1/Math.sin(angle*(Math.PI/180));
     }
     
     else{
         alert("Invalid function selected.");
         return;
     }   
-    document.getElementById("trigResult").textContent=func + angle +" is "+ answera +" in radian";
-    document.getElementById("trigResult1").textContent=func + angle +" is " + answerr + " in degree";
+    document.getElementById("trigResult").textContent=func + angle +" is "+ solution +" in radian";
+    document.getElementById("trigResult1").textContent=func + angle +" is " + answer + " in degree";
 
 }
 //minimum value checker function 
